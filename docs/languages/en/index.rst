@@ -15,12 +15,20 @@
    ref/installation
    user-guide/overview
    user-guide/skeleton-application
-   user-guide/the-application
+   user-guide/modules
    user-guide/routing-and-controllers
    user-guide/database-and-models
    user-guide/styling-and-translations
    user-guide/forms-and-actions
    user-guide/conclusion
+   in-depth-guide/first-module
+   in-depth-guide/services-and-servicemanager
+   in-depth-guide/preparing-db-backend
+   in-depth-guide/zend-db-sql-zend-stdlib-hydrator
+   in-depth-guide/understanding-routing
+   in-depth-guide/zend-form-zend-form-fieldset
+   in-depth-guide/data-binding
+   in-depth-guide/review
    getting-started-with-zend-studio/overview
    getting-started-with-zend-studio/skeleton-application
    getting-started-with-zend-studio/the-application
@@ -109,7 +117,6 @@
    modules/zend.escaper.escaping-css
    modules/zend.escaper.escaping-url
    modules/zend.event-manager.event-manager
-   modules/zend.exception
    modules/zend.feed.introduction
    modules/zend.feed.importing
    modules/zend.feed.find-feeds
@@ -340,6 +347,20 @@
     * :doc:`user-guide/forms-and-actions`
     * :doc:`user-guide/conclusion`
 
+|InDepthTutorial|
+-----------------
+
+|InDepthTutorialIntroduction|
+
+    * :doc:`in-depth-guide/first-module`
+    * :doc:`in-depth-guide/services-and-servicemanager`
+    * :doc:`in-depth-guide/preparing-db-backend`
+    * :doc:`in-depth-guide/zend-db-sql-zend-stdlib-hydrator`
+    * :doc:`in-depth-guide/understanding-routing`
+    * :doc:`in-depth-guide/zend-form-zend-form-fieldset`
+    * :doc:`in-depth-guide/data-binding`
+    * :doc:`in-depth-guide/review`
+
 |GettingStartedWithZendStudio|
 ------------------------------
 
@@ -539,13 +560,6 @@ Zend\\EventManager
 
         * :doc:`modules/zend.event-manager.event-manager`
 
-
-.. _zend.exception:
-
-Zend\\Exception
-^^^^^^^^^^^^^^^
-
-        * :doc:`modules/zend.exception`
 
 .. _zend.feed:
 
